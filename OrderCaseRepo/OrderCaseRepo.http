@@ -1,0 +1,6 @@
+@OrderCaseRepo_HostAddress = http://localhost:5100
+
+GET {{OrderCaseRepo_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
