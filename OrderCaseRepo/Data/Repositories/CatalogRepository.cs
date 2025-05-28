@@ -3,7 +3,7 @@ using OrderCaseRepo.Data.Repositories.Contexts;
 
 namespace OrderCaseRepo.Data.Repositories
 {
-    public class OrderRepository(OrderDbContext dbContext) : BaseRepository<OrderDbContext, Order>(dbContext)
+    public class CatalogRepository(OrderDbContext dbContext) : BaseRepository<OrderDbContext, Catalog>(dbContext)
     {
     }
 }

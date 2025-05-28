@@ -1,6 +1,6 @@
-﻿namespace OrderCaseRepo.Data.Entities
+﻿namespace OrderCaseRepo.Business.Dtos.Catalogs
 {
-    public class Catalog : BaseEntity
+    public class CatalogListDto
     {
         public int Id { get; set; }
         public string Name { get; set; }
